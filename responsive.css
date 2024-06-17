@@ -97,4 +97,30 @@ body {
     font-size: 12px;
     margin: 0;
   }
-  
+  /* MEDIA QUERIES */
+/* @media media-type (media-feature) {
+ 
+} */
+/* media types
+a. all - for all screens
+b. screen - devices with screen
+C. print - works only for print preview
+d. speech - screen readers
+*/
+@media screen and (min-width: 576px) {
+    h1 {
+        color: #fffb00;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        color: #00fffb;
+        font-size: 20px;
+        margin: 5px;
+    }
+    
+    }
