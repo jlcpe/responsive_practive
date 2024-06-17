@@ -27,6 +27,37 @@
         height: 3px;
         background-color: red;
       }
+      .container {
+        height: 300px;
+        background-color: yellowgreen;
+        position: relative;
+        overflow: hidden;
+      }
+      .flexContainer {
+        display: flex;
+      }
+      .flexContainer {
+        display: flex;
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+        flex-flow: row wrap; /* This is the combination of flex direction and flex wrap */
+        justify-content: center;
+        /* main axis content into center */
+        /* flex-start, flex-end, center, space-between, space-around */
+        align-items: center;
+        /* cross-axis items into center */
+        /* flex-start, flex-end, center, stretch, baseline. */
+      }
+
+      .flexItem1 {
+        flex-grow: 3;
+      }
+      .flexItem2 {
+        flex-shrink: 6;
+      }
+      .flexItem3 {
+        flex-basis: 300px;
+      }
     </style>
   </head>
   <body>
